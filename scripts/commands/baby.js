@@ -159,7 +159,7 @@ try{
  if(body.startsWith("জুই") || body.startsWith("jui") || body.startsWith("Jui")){
  const arr = body.replace(/^\S+\s*/, "")
  if(!arr) {
- await api.sendMessage("hum xan bolo ami asi ", event.threadID, (error, info) => {
+ await api.sendMessage("জান বলো আমি শুনছি তো ", event.threadID, (error, info) => {
  global.client.handleReply.push({
  name: this.config.name,
  type: "reply",
